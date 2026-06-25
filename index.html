@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiosk Portal</title>
+
+<style>
+    html, body {
+        margin: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background: #FEC426;
+        color: white;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        background: #FFFFFF;
+        color: black;
+    }
+
+    .header-logo {
+        height: 150px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
+
+    .header-text {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .grid {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+        gap: 24px;
+        padding: 24px;
+        box-sizing: border-box;
+    }
+
+    .tile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        background: #000000;
+        border-radius: 18px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+        font-size: clamp(22px, 2.5vw, 36px);
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .tile:active {
+        transform: scale(0.98);
+    }
+
+    .logo {
+        width: clamp(100px, 12vw, 200px);
+        height: clamp(100px, 12vw, 200px);
+        object-fit: contain;
+        background: white;
+        border-radius: 16px;
+        padding: 12px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        text-align: center;
+        padding: 12px;
+        font-size: 16px;
+        background: #FFFFFF;
+        color: black;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logos/TabletKioskLogo.png" class="header-logo">
+    <div class="header-text">What Direction Do You Choose Today?</div>
+</header>
+
+<div class="grid">
+
+    <a class="tile" href="https://apply.crossroadscu.ca/" target="_self">
+        <img class="logo" src="logos/apply.png">
+        <div>Open An Account</div>
+    </a>
+
+    <a class="tile" href="https://www.crossroadscu.ca/en" target="_self">
+        <img class="logo" src="logos/website.png">
+        <div>Crossroads Website</div>
+    </a>
+
+    <a class="tile" href="https://online.crossroadscu.ca/" target="_self">
+        <img class="logo" src="logos/online.png">
+        <div>Online Banking</div>
+    </a>
+
+</div>
+
+<footer>
+    Tap a tile to start
+</footer>
+
+</body>
+</html>
