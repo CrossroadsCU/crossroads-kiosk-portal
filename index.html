@@ -42,7 +42,8 @@
     .grid {
         flex: 1;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
         gap: 24px;
         padding: 24px;
         box-sizing: border-box;
