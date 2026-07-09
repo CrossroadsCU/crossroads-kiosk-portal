@@ -84,7 +84,13 @@
         padding: 20px;
         box-sizing: border-box;
     }
-
+    
+    .tile-text {
+        min-height: 2.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .tile:active {
         transform: scale(0.98);
     }
@@ -121,22 +127,22 @@
 
     <a class="tile" href="https://apply.crossroadscu.ca/" target="_self">
         <img class="logo" src="logos/apply.png">
-        <div>Open An Account</div>
+        <div class="tile-text">Open An Account</div>
     </a>
 
     <a class="tile" href="https://www.crossroadscu.ca/en" target="_self">
         <img class="logo" src="logos/website.png">
-        <div>Crossroads Website</div>
+        <div class="tile-text">Crossroads Website</div>
     </a>
 
     <a class="tile" href="https://online.crossroadscu.ca/" target="_self">
         <img class="logo" src="logos/online.png">
-        <div>Online Banking</div>
+        <div class="tile-text">Online Banking</div>
     </a>
 
     <a class="tile" href="https://xrds.ca/MemberSurveyv2" target="_self">
         <img class="logo" src="logos/membersurvey.png">
-        <div>Member Survey</div>
+        <div class="tile-text">Member Survey</div>
     </a>
 
 </div>
