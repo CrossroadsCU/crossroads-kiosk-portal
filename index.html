@@ -152,5 +152,11 @@
     This is a managed device. For your security, this session will automatically reset after 5 minutes of inactivity.
 </footer>
 
+<script> 
+    if ('serviceWorker' in navigator) { 
+        navigator.serviceWorker.register('/sw.js'); 
+    } 
+</script>
+    
 </body>
 </html>
