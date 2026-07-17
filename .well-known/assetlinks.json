@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "ca.crossroadscu.kiosk",
+        "sha256_cert_fingerprints": ["45:D8:41:C1:89:26:57:A3:C3:38:18:DF:80:B3:CD:18:A6:75:9F:6E:A1:87:66:33:3E:A9:6B:79:6B:45:FC:33"]
+      }
+    }]
