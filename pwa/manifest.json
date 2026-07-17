@@ -18,7 +18,7 @@
   ],
   "theme_color": "#ffc524",
   "background_color": "#000000",
-  "orientation": "landscape-primary"
+  "orientation": "landscape-primary",
   "id": "1959.04",
   "description": "The Crossroads Kiosk app exposes a Azure Static Website that displays information for the inbranch tablets.",
   "lang": "en",
