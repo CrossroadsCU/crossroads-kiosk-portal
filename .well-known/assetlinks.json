@@ -2,7 +2,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "ca.crossroadscu.kiosk.twa",
+        "package_name": "ca.crossroadscu.kiosk",
         "sha256_cert_fingerprints": ["2A:45:FB:0B:61:F7:9E:A2:1B:41:97:EB:29:CE:19:3A:19:EC:D9:C5:BE:31:2B:41:7F:C5:B4:55:BC:64:A0:9B"]
       }
     }]
