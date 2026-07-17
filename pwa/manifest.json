@@ -1,9 +1,9 @@
 {
   "name": "Crossroads Kiosk",
-  "short_name": "Crossroads",
+  "short_name": "CCU_Kiosk",
   "start_url": "/",
   "scope": "/",
-  "display": "standalone",
+  "display": "minimal-ui",
   "icons": [
     {
       "src": "/pwa/icon-192.png",
@@ -15,5 +15,14 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "theme_color": "#ffc524",
+  "background_color": "#000000",
+  "orientation": "landscape-primary"
+  "id": "1959.04",
+  "description": "The Crossroads Kiosk app exposes a Azure Static Website that displays information for the inbranch tablets.",
+  "lang": "en",
+  "categories": [
+    "business"
   ]
 }
