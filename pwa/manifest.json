@@ -3,7 +3,7 @@
   "short_name": "CCU_Kiosk",
   "start_url": "/",
   "scope": "/",
-  "display": "minimal-ui",
+  "display": "standalone",
   "icons": [
     {
       "src": "/pwa/icon-192.png",
